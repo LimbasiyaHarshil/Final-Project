@@ -179,7 +179,7 @@ nav {
 }
 
 .button button::before {
-    content: url(tooth.svg);
+    content: url(data/tooth.svg);
     padding: 0px 8px;
 }
 
@@ -260,7 +260,7 @@ nav {
 }
 
 .shopbtn button::before {
-    content: url(Shop.svg);
+    content: url(data/Shop.svg);
     padding: 0px 8px 0px 0px;
 }
 
@@ -299,7 +299,7 @@ nav {
 }
 
 .call::before{
-    content: url(call.svg);
+    content: url(data/call.svg);
 }
 
 .time {
@@ -315,7 +315,7 @@ nav {
 }
 
 .time::before{
-    content: url(time.svg);
+    content: url(data/time.svg);
 }
 
 .trackbtn button{
@@ -331,7 +331,7 @@ nav {
 }
 
 .trackbtn button::before {
-    content: url(Track.svg);
+    content: url(data/Track.svg);
     padding: 0px 8px;
 }
 
@@ -373,35 +373,35 @@ nav {
 }
 
 .star1 {
-    content: url(star.svg);
+    content: url(data/star.svg);
     position: absolute;
     top: -5px;
     left: 10px;
 }
 
 .star2 {
-    content: url(star.svg);
+    content: url(data/star.svg);
     position: absolute;
     top: -5px;
     left: 30px;
 }
 
 .star3 {
-    content: url(star.svg);
+    content: url(data/star.svg);
     position: absolute;
     top: -5px;
     left: 50px;
 }
 
 .star4 {
-    content: url(star.svg);
+    content: url(data/star.svg);
     position: absolute;
     top: -5px;
     left: 70px;
 }
 
 .star5 {
-    content: url(star.svg);
+    content: url(data/star.svg);
     position: absolute;
     top: -5px;
     left: 90px;
@@ -445,7 +445,7 @@ nav {
 }
 
 .shop-smheader::before {
-    content: url(smtoothicon.svg);
+    content: url(data/smtoothicon.svg);
 }
 
 .shop-content {
@@ -477,7 +477,7 @@ nav {
 }
 
 .see-btn button::before {
-    content: url(seemore.svg);
+    content: url(data/seemore.svg);
     padding: 0px 8px 0px 0px;
 }
 
@@ -541,35 +541,35 @@ nav {
 }
 
 .ystar1 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
     position: absolute;
     top: -10px;
     left: 200px;
 }
 
 .ystar2 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
     position: absolute;
     top: -10px;
     left: 215px;
 }
 
 .ystar3 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
     position: absolute;
     top: -10px;
     left: 230px;
 }
 
 .ystar4 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
     position: absolute;
     top: -10px;
     left: 245px;
 }
 
 .ystar5 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
     position: absolute;
     top: -10px;
     left: 260px;
@@ -607,7 +607,7 @@ nav {
 }
 
 .viewbtn button::before {
-    content: url(view.svg);
+    content: url(data/view.svg);
     padding: 0px 8px 0px 0px;
 }
 
@@ -622,7 +622,7 @@ nav {
 }
 
 .heart {
-    content: url(heart.svg);
+    content: url(data/heart.svg);
     background-color: #5E5EEE4D;
     color: #FFFFFF;
     padding: 7px;
@@ -652,7 +652,7 @@ nav {
 }
 
 .previewbtn button::before {
-    content: url(preview.svg);
+    content: url(data/preview.svg);
     margin-top: 3px;
     margin-right: 3px;
 }
@@ -670,7 +670,7 @@ nav {
 }
 
 .nextbtn button::before {
-    content: url(next.svg);
+    content: url(data/next.svg);
     margin-top: 3px;
     margin-left: 3px;
 }
@@ -702,7 +702,7 @@ nav {
 }
 
 .shop-see-btn button::before {
-    content: url(seemore.svg);
+    content: url(data/seemore.svg);
     padding: 0px 8px 0px 0px;
 }
 
@@ -784,7 +784,7 @@ nav {
 }
 
 .shop-case-btn button::before {
-    content: url(teethbtnicon.svg);
+    content: url(data/teethbtnicon.svg);
     padding: 0px 8px 0px 0px;
 }
 
@@ -802,7 +802,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1155px;
+    gap: 1120px;
     position: absolute;
     top: 100px;
     left: -15px;
@@ -824,7 +824,7 @@ nav {
 }
 
 .work-smheader::before {
-    content: url(smtoothicon.svg);
+    content: url(data/smtoothicon.svg);
     padding: 0px 5px;
 }
 
@@ -849,7 +849,7 @@ nav {
 }
 
 .arr1 {
-    content: url(arrowgif2.gif);
+    content: url(data/arrowgif2.gif);
     transform: rotate(150deg);
 }
 
@@ -882,7 +882,7 @@ nav {
 }
 
 .workbtn .search::before {
-    content: url(search.svg);
+    content: url(data/search.svg);
 }
 
 .work-header p {
@@ -901,11 +901,11 @@ nav {
 }
 
 .workbtn .shop::before {
-    content: url(shopcart.svg);
+    content: url(data/shopcart.svg);
 }
 
 .workbtn .delivery::before {
-    content: url(delivery.svg);
+    content: url(data/delivery.svg);
 }
 
 .loyalty {
@@ -950,7 +950,7 @@ nav {
 }
 
 .loyaltybtn::after {
-    content: url(Group.svg);
+    content: url(data/Group.svg);
 }
 
 .loyalty-container hr {
@@ -1004,7 +1004,7 @@ nav {
 }
 
 .loyalty-content p::before {
-    content: url(check.svg);
+    content: url(data/check.svg);
     padding: 0px 10px 0px 0px;
 }
 
@@ -1043,15 +1043,15 @@ nav {
 }
 
 .popular-icon1 {
-    content: url(Group.svg);
+    content: url(data/Group.svg);
 }
 
 .popular-icon2 {
-    content: url(Group.svg);
+    content: url(data/Group.svg);
 }
 
 .popular-icon3   {
-    content: url(Group.svg);
+    content: url(data/Group.svg);
 }
 
 .gpbtn button {
@@ -1070,7 +1070,7 @@ nav {
 }
 
 .gpbtn button::before {
-    content: url(view.svg);
+    content: url(data/view.svg);
     padding: 0px 8px 0px 0px;
 }
 
@@ -1160,7 +1160,7 @@ nav {
 }
 
 .sss-card-text p::before {
-    content: url(check2.svg);
+    content: url(data/check2.svg);
     padding-right: 4px;
 }
 
@@ -1176,7 +1176,7 @@ nav {
 }
 
 .sss-card-text2 p::before {
-    content: url(check2.svg);
+    content: url(data/check2.svg);
     padding-right: 4px;
 }
 
@@ -1295,7 +1295,7 @@ nav {
 }
 
 .aboutus-smheader p::before {
-    content: url(smtoothicon.svg);
+    content: url(data/smtoothicon.svg);
     padding: 0px 5px;
 }
 
@@ -1391,7 +1391,7 @@ nav {
 }
 
 .readbtn button::before {
-    content: url(read.svg);
+    content: url(data/read.svg);
     padding: 0px 8px;
     margin-top: 2px;
 }
@@ -1426,7 +1426,7 @@ nav {
 }
 
 .test-smheader p::before {
-    content: url(smtoothicon.svg);
+    content: url(data/smtoothicon.svg);
     padding: 0px 5px;
 }
 
@@ -1485,7 +1485,7 @@ nav {
 }
 
 .test-card-icon button::before{
-    content: url(test.svg);
+    content: url(data/test.svg);
 }
 
 .test-stars {
@@ -1494,23 +1494,23 @@ nav {
 }
 
 .test-star1 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
 }
 
 .test-star2 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
 }
 
 .test-star3 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
 }
 
 .test-star4 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
 }
 
 .test-star5 {
-    content: url(staryellow.svg);
+    content: url(data/staryellow.svg);
 }
 
 .test-card-text p {
@@ -1621,7 +1621,7 @@ nav {
 }
 
 .help-icon {
-    content: url(whatsapp.svg);
+    content: url(data/whatsapp.svg);
 }
 
 .help-header p {
@@ -1654,7 +1654,7 @@ nav {
 }
 
 .chatbtn button::before {
-    content: url(chat.svg);
+    content: url(data/chat.svg);
 }
 
 .chatbtn button:hover {
@@ -1721,7 +1721,7 @@ nav {
 }
 
 .socialbtn1 button::before {
-    content: url(facebook.svg);
+    content: url(data/facebook.svg);
 }
 
 .socialbtn2 button {
@@ -1737,7 +1737,7 @@ nav {
 }
 
 .socialbtn2 button::before {
-    content: url(insta.svg);
+    content: url(data/insta.svg);
 }
 
 .socialbtn3 button {
@@ -1753,7 +1753,7 @@ nav {
 }
 
 .socialbtn3 button::before {
-    content: url(linkdin.svg);
+    content: url(data/linkdin.svg);
 }
 
 .footer-left {
@@ -1784,7 +1784,7 @@ nav {
 }
 
 .footer-links p::before {
-    content: url(fteeth.svg);
+    content: url(data/fteeth.svg);
     padding: 0px 8px 0px 0px;
 }
 
