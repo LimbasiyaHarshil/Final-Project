@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentalImplant - Homepage</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-link">
+            <div class="header-left">
+                <p>Tier<svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.5875 6.5H2.5V5.5H8.5875L5.7875 2.7L6.5 2L10.5 6L6.5 10L5.7875 9.3L8.5875 6.5Z" fill="white"/>
+                </svg></p>
+                <p>Silver<svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.5875 6.5H2.5V5.5H8.5875L5.7875 2.7L6.5 2L10.5 6L6.5 10L5.7875 9.3L8.5875 6.5Z" fill="white"/>
+                </svg></p>
+                <a href="">View Benifits</a>
+                <p class="credit">Credit<svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.5875 6.5H2.5V5.5H8.5875L5.7875 2.7L6.5 2L10.5 6L6.5 10L5.7875 9.3L8.5875 6.5Z" fill="white"/>
+                </svg> $56.50</p>
+            </div>
+
+            <div class="header-right">
+                <p>Progress To Gold</p>
+                <div class="progress">
+                    <div></div>
+                </div>
+
+                <div class="vertical-line"></div>
+
+                <div class="languages">
+                    <select id="languages">
+                        <option value="En">Eng</option>
+                        <option value="Fr">Fr</option>
+                        <option value="Ind">Ind</option>
+                    </select>
+                </div>
+
+                <div class="currency">
+                    <select id="currency">
+                        <option value="USD">USD</option>
+                        <option value="Inr">INR</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>      
+
+        <nav>
+            <div class="logo">
+                    <a href="">DentalImplants.com</a>
+            </div>
+
+            <div class="menu">
+                    <a href="">Home</a>
+
+                    <div class="dropdown">
+                        <a href="">Products
+                            <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#1f1f1f"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="">Product 1</a>
+                            <a href="">Product 2</a>
+                            <a href="">Product 3</a>
+                        </div>
+                    </div>
+
+                    <a href="">Why Choose Us</a>
+                    <a href="">Brand</a>
+                    <a href="">Support</a>
+                    <a href="">Contact Us</a>
+            </div>
+
+            <div class="right">
+                    <a href=""><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" fill="#5E5EEE"/>
+                    <path d="M25.6 27L19.3 20.7C18.8 21.1 18.225 21.4167 17.575 21.65C16.925 21.8833 16.2333 22 15.5 22C13.6833 22 12.1458 21.3708 10.8875 20.1125C9.62917 18.8542 9 17.3167 9 15.5C9 13.6833 9.62917 12.1458 10.8875 10.8875C12.1458 9.62917 13.6833 9 15.5 9C17.3167 9 18.8542 9.62917 20.1125 10.8875C21.3708 12.1458 22 13.6833 22 15.5C22 16.2333 21.8833 16.925 21.65 17.575C21.4167 18.225 21.1 18.8 20.7 19.3L27 25.6L25.6 27ZM15.5 20C16.75 20 17.8125 19.5625 18.6875 18.6875C19.5625 17.8125 20 16.75 20 15.5C20 14.25 19.5625 13.1875 18.6875 12.3125C17.8125 11.4375 16.75 11 15.5 11C14.25 11 13.1875 11.4375 12.3125 12.3125C11.4375 13.1875 11 14.25 11 15.5C11 16.75 11.4375 17.8125 12.3125 18.6875C13.1875 19.5625 14.25 20 15.5 20Z" fill="white"/>
+                    </svg></a>
+
+                    <a href=""><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" fill="#5E5EEE"/>
+                    <path d="M13.4166 27.1667C12.9125 27.1667 12.4809 26.9872 12.1218 26.6281C11.7628 26.2691 11.5833 25.8375 11.5833 25.3333C11.5833 24.8292 11.7628 24.3976 12.1218 24.0385C12.4809 23.6795 12.9125 23.5 13.4166 23.5C13.9208 23.5 14.3524 23.6795 14.7114 24.0385C15.0704 24.3976 15.25 24.8292 15.25 25.3333C15.25 25.8375 15.0704 26.2691 14.7114 26.6281C14.3524 26.9872 13.9208 27.1667 13.4166 27.1667ZM22.5833 27.1667C22.0791 27.1667 21.6475 26.9872 21.2885 26.6281C20.9295 26.2691 20.75 25.8375 20.75 25.3333C20.75 24.8292 20.9295 24.3976 21.2885 24.0385C21.6475 23.6795 22.0791 23.5 22.5833 23.5C23.0875 23.5 23.5191 23.6795 23.8781 24.0385C24.2371 24.3976 24.4166 24.8292 24.4166 25.3333C24.4166 25.8375 24.2371 26.2691 23.8781 26.6281C23.5191 26.9872 23.0875 27.1667 22.5833 27.1667ZM12.6375 12.5L14.8375 17.0833H21.2541L23.775 12.5H12.6375ZM11.7666 10.6667H25.2875C25.6388 10.6667 25.9062 10.8233 26.0895 11.1365C26.2729 11.4497 26.2805 11.7667 26.1125 12.0875L22.8583 17.9542C22.6902 18.2597 22.4649 18.4965 22.1823 18.6646C21.8996 18.8326 21.5902 18.9167 21.2541 18.9167H14.425L13.4166 20.75H24.4166V22.5833H13.4166C12.7291 22.5833 12.2097 22.2816 11.8583 21.6781C11.5069 21.0747 11.4916 20.475 11.8125 19.8792L13.05 17.6333L9.74996 10.6667H7.91663V8.83334H10.8958L11.7666 10.6667Z" fill="white"/>
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="7" cy="7" r="6.5" fill="#FF3F4F"/>
+                        <path d="M7.24112 10.1667C6.78948 10.1667 6.34699 10.1026 5.91366 9.97442C5.48643 9.84015 5.12633 9.65705 4.83337 9.42512L5.3369 8.50047C5.56882 8.68968 5.84957 8.84226 6.17915 8.95822C6.51483 9.07418 6.86272 9.13216 7.22281 9.13216C7.64394 9.13216 7.97351 9.04367 8.21154 8.86667C8.45567 8.68968 8.57774 8.45165 8.57774 8.15259C8.57774 7.95118 8.52586 7.77418 8.42211 7.6216C8.32445 7.46902 8.14746 7.35306 7.89112 7.27371C7.64089 7.19437 7.29605 7.1547 6.85661 7.1547H5.30943L5.63901 3.66667H9.40168V4.66456H6.07844L6.70098 4.09695L6.4538 6.70611L5.83126 6.14766H7.12211C7.75685 6.14766 8.26647 6.2331 8.65098 6.404C9.04159 6.56878 9.32539 6.80071 9.50239 7.09977C9.68549 7.39273 9.77704 7.72841 9.77704 8.10681C9.77704 8.47911 9.68549 8.8209 9.50239 9.13216C9.31929 9.44343 9.03854 9.69367 8.66013 9.88287C8.28783 10.0721 7.81483 10.1667 7.24112 10.1667Z" fill="white"/>
+                        </svg>
+                    </svg></a>
+
+                    <a href=""><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" fill="#5E5EEE"/>
+                    <path d="M17.95 24C18.3 24 18.5958 23.8792 18.8375 23.6375C19.0792 23.3958 19.2 23.1 19.2 22.75C19.2 22.4 19.0792 22.1042 18.8375 21.8625C18.5958 21.6208 18.3 21.5 17.95 21.5C17.6 21.5 17.3042 21.6208 17.0625 21.8625C16.8208 22.1042 16.7 22.4 16.7 22.75C16.7 23.1 16.8208 23.3958 17.0625 23.6375C17.3042 23.8792 17.6 24 17.95 24ZM17.05 20.15H18.9C18.9 19.6 18.9625 19.1667 19.0875 18.85C19.2125 18.5333 19.5667 18.1 20.15 17.55C20.5833 17.1167 20.925 16.7042 21.175 16.3125C21.425 15.9208 21.55 15.45 21.55 14.9C21.55 13.9667 21.2083 13.25 20.525 12.75C19.8417 12.25 19.0333 12 18.1 12C17.15 12 16.3792 12.25 15.7875 12.75C15.1958 13.25 14.7833 13.85 14.55 14.55L16.2 15.2C16.2833 14.9 16.4708 14.575 16.7625 14.225C17.0542 13.875 17.5 13.7 18.1 13.7C18.6333 13.7 19.0333 13.8458 19.3 14.1375C19.5667 14.4292 19.7 14.75 19.7 15.1C19.7 15.4333 19.6 15.7458 19.4 16.0375C19.2 16.3292 18.95 16.6 18.65 16.85C17.9167 17.5 17.4667 17.9917 17.3 18.325C17.1333 18.6583 17.05 19.2667 17.05 20.15ZM18 28C16.6167 28 15.3167 27.7375 14.1 27.2125C12.8833 26.6875 11.825 25.975 10.925 25.075C10.025 24.175 9.3125 23.1167 8.7875 21.9C8.2625 20.6833 8 19.3833 8 18C8 16.6167 8.2625 15.3167 8.7875 14.1C9.3125 12.8833 10.025 11.825 10.925 10.925C11.825 10.025 12.8833 9.3125 14.1 8.7875C15.3167 8.2625 16.6167 8 18 8C19.3833 8 20.6833 8.2625 21.9 8.7875C23.1167 9.3125 24.175 10.025 25.075 10.925C25.975 11.825 26.6875 12.8833 27.2125 14.1C27.7375 15.3167 28 16.6167 28 18C28 19.3833 27.7375 20.6833 27.2125 21.9C26.6875 23.1167 25.975 24.175 25.075 25.075C24.175 25.975 23.1167 26.6875 21.9 27.2125C20.6833 27.7375 19.3833 28 18 28ZM18 26C20.2333 26 22.125 25.225 23.675 23.675C25.225 22.125 26 20.2333 26 18C26 15.7667 25.225 13.875 23.675 12.325C22.125 10.775 20.2333 10 18 10C15.7667 10 13.875 10.775 12.325 12.325C10.775 13.875 10 15.7667 10 18C10 20.2333 10.775 22.125 12.325 23.675C13.875 25.225 15.7667 26 18 26Z" fill="white"/>
+                    </svg></a>
+
+                    <a href=""><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" fill="#5E5EEE"/>
+                    <path d="M18 18C16.9 18 15.9583 17.6083 15.175 16.825C14.3917 16.0417 14 15.1 14 14C14 12.9 14.3917 11.9583 15.175 11.175C15.9583 10.3917 16.9 10 18 10C19.1 10 20.0417 10.3917 20.825 11.175C21.6083 11.9583 22 12.9 22 14C22 15.1 21.6083 16.0417 20.825 16.825C20.0417 17.6083 19.1 18 18 18ZM10 26V23.2C10 22.6333 10.1458 22.1125 10.4375 21.6375C10.7292 21.1625 11.1167 20.8 11.6 20.55C12.6333 20.0333 13.6833 19.6458 14.75 19.3875C15.8167 19.1292 16.9 19 18 19C19.1 19 20.1833 19.1292 21.25 19.3875C22.3167 19.6458 23.3667 20.0333 24.4 20.55C24.8833 20.8 25.2708 21.1625 25.5625 21.6375C25.8542 22.1125 26 22.6333 26 23.2V26H10ZM12 24H24V23.2C24 23.0167 23.9542 22.85 23.8625 22.7C23.7708 22.55 23.65 22.4333 23.5 22.35C22.6 21.9 21.6917 21.5625 20.775 21.3375C19.8583 21.1125 18.9333 21 18 21C17.0667 21 16.1417 21.1125 15.225 21.3375C14.3083 21.5625 13.4 21.9 12.5 22.35C12.35 22.4333 12.2292 22.55 12.1375 22.7C12.0458 22.85 12 23.0167 12 23.2V24ZM18 16C18.55 16 19.0208 15.8042 19.4125 15.4125C19.8042 15.0208 20 14.55 20 14C20 13.45 19.8042 12.9792 19.4125 12.5875C19.0208 12.1958 18.55 12 18 12C17.45 12 16.9792 12.1958 16.5875 12.5875C16.1958 12.9792 16 13.45 16 14C16 14.55 16.1958 15.0208 16.5875 15.4125C16.9792 15.8042 17.45 16 18 16Z" fill="white"/>
+                    </svg></a>
+
+                    <a href=""><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" fill="#5E5EEE"/>
+                    <path d="M18.0917 24.0042L18 24.0958L17.8992 24.0042C13.545 20.0533 10.6667 17.4408 10.6667 14.7917C10.6667 12.9583 12.0417 11.5833 13.875 11.5833C15.2867 11.5833 16.6617 12.5 17.1475 13.7467H18.8525C19.3384 12.5 20.7134 11.5833 22.125 11.5833C23.9584 11.5833 25.3334 12.9583 25.3334 14.7917C25.3334 17.4408 22.455 20.0533 18.0917 24.0042ZM22.125 9.75C20.53 9.75 18.9992 10.4925 18 11.6567C17.0009 10.4925 15.47 9.75 13.875 9.75C11.0517 9.75 8.83337 11.9592 8.83337 14.7917C8.83337 18.2475 11.95 21.08 16.6709 25.3608L18 26.5708L19.3292 25.3608C24.05 21.08 27.1667 18.2475 27.1667 14.7917C27.1667 11.9592 24.9484 9.75 22.125 9.75Z" fill="white"/>
+                    </svg></a>
+
+                    <div class="button">
+                        <button>Browse Implants</button>
+                    </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <div class="space">
+                <div class="hero-title">
+                    <p>Superior Dental <img src="hero-title-img-1.jpg.png" alt="Title Image 1"></img>  Implants <br> Unmatched Precision & <img src="hero-title-img-2.jpg.png" alt="Title Image 2"></img> <br> Longevity</p>
+
+                    
+                </div>
+
+                <div class="hero-text">
+                    <p>Elevate your practice with premium implants engineered for strength, aesthetics, and seamless integration.</p>
+                </div>
+
+                <div class="hero-status">
+                    <div class="status">
+                        <h2>99%</h2>
+                        <p>On-Time Delivery</p>
+                    </div>
+
+                    <div class="status">
+                        <h2>98%</h2>
+                        <p>Customer Satisfaction</p>
+                    </div>
+
+                    <div class="status">
+                        <h2>95%</h2>
+                        <p>Same-Day Order Processing</p>
+                    </div>
+                </div>
+
+                <div class="shopbtn">
+                    <button>Shop Now</button>
+                </div>
+            </div>
+
+            <div class="hero-img">
+                <div>
+                    <img src="Figure.png" alt="Hero Image">
+
+                    <div class="review">
+                        <div>
+                            <p class="star1"></p>
+                            <p class="star2"></p>
+                            <p class="star3"></p>
+                            <p class="star4"></p>
+                            <p class="star5"></p>
+                        </div>
+                       
+                        <div class="review-heading">
+                            <p>Best Service & 5 Star</p>
+
+                            <p class="review-text">Advanced technology for seamless integration.</p>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+
+        <div class="info">
+            <div class="call">
+                <div>
+                    <p><strong>Need Help With Your Order?</strong></p>
+                    <p>(+01)789 987 654</p>
+                </div>
+            </div>
+
+            <div class="vertical-line"></div>
+
+            <div class="time">
+                <div>
+                    <p><strong>Shipping Time</strong></p>
+                    <p>Standard Delivery: 3-5 Business Days</p>
+                    <p>Express Shipping: 1-2 Business Days</p>
+                </div>
+            </div>
+
+            <div class="vertical-line"></div>
+
+            <div class="trackbtn">
+                <button>Track Your Order</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-section">
+            <p class="shop-smheader">Shop By System</p>
+
+            <div>
+                <div class="shop-content">
+                    <p>Find the Perfect Implant Solution Tailored for Every Case!</p>
+
+                    <div class="see-btn">
+                        <button>See More</button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="shop-container">
+                
+                <div class="shop-card">
+                    <div>
+                        <span>New</span>
+                        <div class="ystar">
+                            <p class="ystar1"></p>
+                            <p class="ystar2"></p>
+                            <p class="ystar3"></p>
+                            <p class="ystar4"></p>
+                            <p class="ystar5"></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="image 5.png" alt="Shop Image 1">
+                    </div>
+
+                    <div class="card-text">
+                        <p class="card-header">NeoDent GM</p>
+                        <p>Premium Implant System</p>
+
+                        <div class="viewbtn">
+                            <div>
+                                <button>View Details</button>   
+                            </div>
+                            <p class="heart"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop-card">
+                    <div>
+                        <span>Top Seller</span>
+                        <div class="ystar">
+                            <p class="ystar1"></p>
+                            <p class="ystar2"></p>
+                            <p class="ystar3"></p>
+                            <p class="ystar4"></p>
+                            <p class="ystar5"></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="image 6.png" alt="Shop Image 1">
+                    </div>
+
+                    <div class="card-text">
+                        <p class="card-header">MegaGen AnyOne</p>
+                        <p>Versatile Solution</p>
+
+                        <div class="viewbtn">
+                            <div>
+                                <button>View Details</button>   
+                            </div>
+                            <p class="heart"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop-card">
+                    <div>
+                        <!-- <span>Top Seller</span> -->
+                        <div class="ystar">
+                            <p class="ystar1"></p>
+                            <p class="ystar2"></p>
+                            <p class="ystar3"></p>
+                            <p class="ystar4"></p>
+                            <p class="ystar5"></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="image 7.png" alt="Shop Image 1">
+                    </div>
+
+                    <div class="card-text">
+                        <p class="card-header">MegaGen AnyRidge</p>
+                        <p>Advance System</p>
+
+                        <div class="viewbtn">
+                            <div>
+                                <button>View Details</button>   
+                            </div>
+                            <p class="heart"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagenation">
+                    <div class="previewbtn">
+                        <button></button>
+                    </div>
+                    <div class="nextbtn">
+                        <button></button>
+                    </div>   
+                </div>
+            </div>            
+    </div>    
+
+    <div class="shop">
+        <p class="shop-smheader">Shop By Case</p>
+
+        <div>
+                <div class="shop-text">
+                    <p>Case-Specific Solutions for Perfect Restorations</p>
+
+                    <div class="shop-see-btn">
+                        <button>See More</button>
+                    </div>
+                </div>
+        </div>
+
+        <div class="shop-case">
+            <div class="shop-case-card">
+                <div>
+                    <img src="image 8.png" alt="Shop Image 1">
+                </div>
+
+                <div class="shop-case-btn">
+                    <div></div>
+                    <button>Single</button>
+                </div>
+
+                <div class="content">
+                    <p>Single tooth replacement solution</p>
+                </div>
+            </div>   
+
+            <div class="shop-case-card">
+                <div>
+                    <img src="image 9.png" alt="Shop Image 1">
+                </div>
+
+                <div class="shop-case-btn">
+                    <button>All-on-4</button>
+                </div>
+
+                <div class="content">
+                    <p>Full arch restoration with 4 implants</p>
+                </div>
+            </div>  
+
+            <div class="shop-case-card">
+                <div>
+                    <img src="image 10.png" alt="Shop Image 1">
+                </div>
+
+                <div class="shop-case-btn">
+                    <button>All-on-6</button>
+                </div>
+
+                <div class="content">
+                    <p>Full arch restoration with 6 implants</p>
+                </div>
+            </div>  
+
+            <div class="shop-case-card">
+                <div>
+                    <img src="image 11.png" alt="Shop Image 1">
+                </div>
+
+                <div class="shop-case-btn">
+                    <button>Digital Workflow</button>
+                </div>
+
+                <div class="content">
+                    <p>Full arch restoration with Digital Workflow</p>
+                </div>
+                
+            </div> 
+
+            <div class="case-pagenation">
+                <div class="previewbtn">
+                    <button></button>
+                </div>
+                <div class="nextbtn">
+                    <button></button>
+                </div>   
+            </div>
+        </div>
+
+    </div>
+
+    <div class="work">
+        <p class="work-smheader">How it works</p>
+
+        <div>
+            <div class="work-text">
+                <p>Simple Steps to a Perfect Smile!</p>
+            </div>
+        </div>
+
+        <div class="work-container">
+            <div class="workbtn">
+                <button class="search"></button>
+                <div class="work-header">
+                    <p>Search</p>
+                </div>
+                <div class="search-text">
+                    <p>Find Your Products</p>
+                </div>
+            </div>
+
+            <div class="arr1">
+            </div>
+
+            <div class="workbtn">
+                <button class="shop"></button>
+                <div class="work-header">
+                    <p>Add to Cart</p>
+                </div>
+                <div class="search-text">
+                    <p>Select quantity</p>
+                </div>
+            </div>
+
+            <div class="arr1">
+            </div>
+
+            <div class="workbtn">
+                <button class="delivery"></button>
+                <div class="work-header">
+                    <p>Delivery</p>
+                </div>
+                <div class="search-text">
+                    <p>Fast shipping</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="loyalty">
+        <p class="work-smheader">Loyalty Program</p>
+
+        <div>
+            <div class="work-text">
+                <p>How It Works Simple Steps to a Perfect Smile!</p>
+            </div>
+        </div>
+
+        <div class="loyalty-container">
+            <div class="loyalty-card">
+                <div class="loyaltybtn">
+                    <button>Current Tier</button>
+                </div>
+
+                <hr>
+
+                <div>
+                    <p class="loyalty-header">Silver</p>
+                    <p class="loyalty-text"><span>2%</span>  Cashback</p>
+                </div>
+
+                <div class="loyalty-content">
+                    <p>Free Shipping over $500</p>
+                    <p>Standard Support</p>
+                </div>
+
+                <div>
+                    <p>Your active tier benefits</p>
+                </div>
+
+            </div>
+
+            <div class="loyalty-card1">
+                <div class="popularbtn">
+                    <button>Most Popular</button>
+                </div>
+
+                <div class="popular-header">
+                    <div class="popular-head">
+                        <p>Platinum</p>
+                    </div>
+                    <div class="popular-img">
+                        <div class="popular-icon1"></div>
+                        <div class="popular-icon2"></div>
+                    </div>   
+                </div>
+
+                <hr>
+
+                <div>
+                    <p class="loyalty-text"><span>5%</span>  Cashback</p>
+                </div>
+
+                <div class="loyalty-content">
+                    <p>Free Express Shipping</p>
+                    <p>Priority Support</p>
+                </div>
+
+                <div class="gpbtn">
+                    <button>How to reach Gold?</button>
+                </div>
+            </div>
+
+            <div class="loyalty-card1">
+                <div class="popularbtn">
+                    <button>Top Tier</button>
+                </div>
+
+                <div class="popular-header">
+                    <div class="popular-head">
+                        <p>Platinum</p>
+                    </div>
+                    <div class="popular-img">
+                        <div class="popular-icon1"></div>
+                        <div class="popular-icon2"></div>
+                        <div class="popular-icon3"></div>
+                    </div>   
+                </div>
+
+                <hr>
+
+                <div>
+                    <p class="loyalty-text"><span>10%</span>  Cashback</p>
+                </div>
+
+                <div class="loyalty-content">
+                    <p>VIP Support 24/7</p>
+                    <p>Exclusive Events</p>
+                </div>
+
+                <div class="gpbtn">
+                    <button>How to reach Platinum?</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sss">
+        <div class="sss-header">
+            <p>Simple, Secure, Swift</p>
+        </div>
+        <div class="sss-Ftext">
+            <p>Online purchasing is fast, simple, and secure. Orders ship with DHL or UPS.</p>
+        </div>
+        <div class="sss-Stext">
+            <p>Orders prepared in 1-3 business days. We ship with UPS or DHL based on fastest route.</p>
+        </div>
+         
+        <div class="sss-main-card">
+            <div class="sss-card">
+                <div class="sss-card-head">
+                    <p>Delivery Times</p>
+                </div>
+
+                <div class="sss-card-text">
+                    <p>2-7 business days to US/EU</p>
+                    <p>5-12 days to South America/Eastern Europe</p>
+                </div>
+            </div>
+
+            <div class="sss-card">
+                <div class="sss-card-head">
+                    <p>Safe. Fast. Trusted.</p>
+                </div>
+                <div class="sss-card-text2">
+                    <p>SSL Secure</p>
+                    <p>24/7 Support</p>
+                    <p>Refund Policy</p>
+                    <p>DHL</p>
+                    <p>Quality Guarantee</p>
+                    <p>UPS</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="dental">
+        <div class="dental-img">
+            <img src="image 12.png" alt="">
+        </div>
+
+        <div>
+            <img src="" alt="">
+        </div>
+
+        <div class="dental-header">
+            <p>Trusted by Dental Professionals</p>
+        </div>
+
+        <div class="trust">
+
+            <div class="trust-card">
+                <div class="trust-card-head">
+                    <p>1,000+</p>
+                </div>
+                <div class="trust-card-text">
+                    <p>Satisfied Clinics</p>
+                </div>
+            </div>
+
+            <div class="trust-card">
+                <div class="trust-card-head">
+                    <p>50,000</p>
+                </div>
+                <div class="trust-card-text">
+                    <p>Orders Delivered</p>
+                </div>
+            </div>
+
+            <div class="trust-card">
+                <div class="trust-card-head">
+                    <p>99%</p>
+                </div>
+                <div class="trust-card-text">
+                    <p>Satisfaction Rate</p>
+                </div>
+            </div>
+
+            <div class="trust-card">
+                <div class="trust-card-head">
+                    <p>1,000+</p>
+                </div>
+                <div class="trust-card-text">
+                    <p>Satisfied Clinics</p>
+                </div>
+            </div>
+
+            <div class="trust-card">
+                <div class="trust-card-head">
+                    <p>50,000</p>
+                </div>
+                <div class="trust-card-text">
+                    <p>Orders Delivered</p>
+                </div>
+            </div>
+
+            <div class="trust-card">
+                <div class="trust-card-head">
+                    <p>99%</p>
+                </div>
+                <div class="trust-card-text">
+                    <p>Satisfaction Rate</p>
+                </div>
+            </div>
+
+            <div class="trust-card">
+                <div class="trust-card-head">
+                    <p>1,000+</p>
+                </div>
+                <div class="trust-card-text">
+                    <p>Satisfied Clinics</p>
+                </div>
+            </div>
+
+            <div class="trust-card">
+                <div class="trust-card-head">
+                    <p>50,000</p>
+                </div>
+                <div class="trust-card-text">
+                    <p>Orders Delivered</p>
+                </div>
+            </div>
+
+            <div class="trust-card">
+                <div class="trust-card-head">
+                    <p>99%</p>
+                </div>
+                <div class="trust-card-text">
+                    <p>Satisfaction Rate</p>
+                </div>
+            </div>
+
+        </div>    
+    </div>
+
+    <div class="aboutus">
+        <div class="aboutus-main">
+            <div class="aboutus-imgs">
+                <div class="aboutus-img1">
+                    <img src="Aboutimg1.png" alt="About Us Image1">
+                </div>
+                <div class="aboutus-img2">
+                        <img src="aboutimg2.png" alt="About Us Image2">
+                    </div>
+            </div>    
+
+            <div class="aboutus-content">
+                <div class="aboutus-smheader">
+                    <p>About Us</p>
+                </div>
+
+                <div class="aboutus-header">
+                    <p>Committed to Restoring Smiles with Premium Dental Implants</p>
+                </div>
+
+                <div class="aboutus-text">
+                    <p>We specialize in providing high-quality dental implants designed for precision, durability, and seamless integration. Trusted by dental professionals worldwide, our products ensure long-term patient satisfaction and success.</p>
+                </div>
+
+                <div class="aboutus-container">
+                    <div class="aboutus-container1">
+                        <div class="about-container-head">
+                            <p>25+<span class="span2">Years</span></p>
+                            
+                        </div>
+                        <div class="about-container-text">
+                            <p>Delivering innovation in dental implants.</p>
+                        </div>
+                    </div>
+
+                    <div class="aboutus-container1">
+                        <div class="about-container-head1">
+                            <p>100% <span class="span2">Customer Satisfaction</span></p>
+                            
+                        </div>
+                        <div class="about-container-text">
+                            <p>Trusted by professionals globally.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="readbtn">
+                    <button>Read More</button>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="test">
+        <div class="test-head">
+            <div>
+                <div class="test-smheader">
+                    <p>Testimonials</p>
+                </div>
+            
+                <div class="test-header">
+                    <p>Superior Quality. Seamless Restorations</p>
+                </div>
+            </div>
+
+            <div class="test-pagenation">
+                <div class="previewbtn">
+                    <button></button>
+                </div>
+                
+                <div class="nextbtn">
+                    <button></button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        
+        <div class="test-container">
+            <div class="test-card">
+
+                <div class="test-card-icon">
+                    <button></button>
+                </div>
+
+                <div class="test-card-content">
+
+                    <div class="test-stars">
+                        <div class="test-star1"></div>
+                        <div class="test-star2"></div>
+                        <div class="test-star3"></div>
+                        <div class="test-star4"></div>
+                        <div class="test-star5"></div>
+                    </div>
+
+                    <div class="test-card-text">
+                        <p>I've been using Dentallmplants implants for over five years. The precision and quality are unmatched, leading to exceptional results for my patients!</p>
+                    </div>
+
+                    <div class="test-profile">
+                        <div>
+                            <img src="profile1.png" alt="profile1">
+                        </div>
+                        <div class="profile-name">
+                            <p>Dr. John Smith, DDS</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="test-card">
+
+                <div class="test-card-icon">
+                    <button></button>
+                </div>
+
+                <div class="test-card-content">
+
+                    <div class="test-stars">
+                        <div class="test-star1"></div>
+                        <div class="test-star2"></div>
+                        <div class="test-star3"></div>
+                        <div class="test-star4"></div>
+                        <div class="test-star5"></div>
+                    </div>
+
+                    <div class="test-card-text">
+                        <p>The All-on-4 system has revolutionized the way I approach full-arch restorations. The stability and reliability of these implants have significantly improved patient.</p>
+                    </div>
+
+                    <div class="test-profile">
+                        <div>
+                            <img src="profile2.png" alt="profile2">
+                        </div>
+                        <div class="profile-name">
+                            <p>Dr. Emily Carter, Prosthodontist</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="test-card">
+
+                <div class="test-card-icon">
+                    <button></button>
+                </div>
+
+                <div class="test-card-content">
+
+                    <div class="test-stars">
+                        <div class="test-star1"></div>
+                        <div class="test-star2"></div>
+                        <div class="test-star3"></div>
+                        <div class="test-star4"></div>
+                        <div class="test-star5"></div>
+                    </div>
+
+                    <div class="test-card-text">
+                        <p>Incorporating [Brand Name]’s digital workflow into my practice has been one of the best decisions I’ve made. The guided surgical solutions, precise scanning.</p>
+                    </div>
+
+                    <div class="test-profile">
+                        <div>
+                            <img src="profile3.png" alt="profile3">
+                        </div>
+                        <div class="profile-name">
+                            <p>Dr. Michael Lee, Oral Surgeon</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">        
+        <div class="footer-content">
+                <div class="footer-container">
+                    <div class="footer-right">
+                        <div class="footer-heading">
+                            <p>Dentallmplants.com</p>
+                        </div>
+
+                        <div class="footer-text">
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        </div>
+
+                        <div class="follow">
+                            <p>Follow Us:-</p>
+                            <div class="socials">
+                                <div class="socialbtn1">
+                                    <button></button>
+                                </div>
+                                <div class="socialbtn2">
+                                    <button></button>
+                                </div>
+                                <div class="socialbtn3">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-left">
+                        <div class="footer-head">
+                            <div>
+                                <p>Products</p>
+                            </div>
+                            <div class="footer-links">
+                                <p>Implants</p>
+                                <p>Abutments</p>
+                                <p>Surgical Kits</p>
+                            </div>
+                        </div>
+
+                        <div class="footer-head">
+                            <div>
+                                <p>Support</p>
+                            </div>
+                            <div class="footer-links">
+                                <p>Contact</p>
+                                <p>FAQ</p>
+                                <p>Shipping</p>
+
+                            </div>
+                        </div>
+
+                        <div class="footer-head">
+                            <div>
+                                <p>Legal</p>
+                            </div>
+                            <div class="footer-links">
+                                <p>Privacy Policy</p>
+                                <p>Terms Of Services</p>
+                                <p>Returns</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-hr">
+                    <hr>
+                </div>
+                
+                <div class="footer-end">
+                    <p>© 2025 DentalImplants.com. All rights reserved.</p>
+                </div>
+        </div>      
+            
+        <div footer class="footer-top">
+            <div class="footer-top-content">
+                <div class="footer-top-header">
+                    <p>Stay Informed</p>
+                </div>
+
+                <div class="footer-top-text">
+                    <p>Get updates on new products and special offers</p>
+                </div>
+
+                <div class="footer-form">
+                    <div class="footer-input">
+                        <input type="text" placeholder="Enter Your Mail...">
+                    </div>
+                    <div class="footer-submit">
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-top-help">
+                <div class="help-icon">
+                    <button></button>
+                </div>
+
+                <div class="help-header">
+                    <p>Need Help?</p>
+                </div>
+
+                <div class="help-text">
+                    <p>Get instant support via WhatsApp</p>
+                </div>
+
+                <div class="chatbtn">
+                    <button>Chat Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+           
+</body>
+</html>
