@@ -485,6 +485,14 @@ nav {
     height: 300px;
 }
 
+.shop-system {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .shop-smheader {
     display: flex;
     margin-left: 120px;
@@ -561,6 +569,32 @@ nav {
     transition: transform 0.3s ease;
 }
 
+@media screen and (max-width: 991px) {
+    .shop-section {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .shop-smheader {
+        margin-left: 35px;
+    }
+
+    .shop-content {
+        flex-wrap: wrap;
+        margin: 0px 35px;
+    }
+
+    .shop-container {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .shop-card {
+        margin-bottom: 0;
+    }
+}
+
 .shop-card img {
     height: 150px;
     object-fit: cover;
@@ -587,7 +621,6 @@ nav {
 .ystar {
     display: flex;
     position: absolute;
-
 }
 
 .ystar1 {
@@ -684,9 +717,15 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 930px;
-    padding: 20px;
+    padding: 10px;
     position: absolute;
     top: 140px;
+}
+
+@media screen and (max-width: 999px) {
+    .pagenation {
+        display: none;
+    }
 }
 
 .previewbtn button {
@@ -723,6 +762,12 @@ nav {
     content: url(data/next.svg);
     margin-top: 3px;
     margin-left: 3px;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .shop-text {
@@ -852,7 +897,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1170px;
+    gap: 980px;
     position: absolute;
     top: 100px;
     left: 0;
@@ -860,8 +905,58 @@ nav {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 1460px) {
+    .case-pagenation {
+        gap: 1170px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .case-pagenation {
+        gap: 1155px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .shop-case {
+        justify-content: center;
+    }
+    
+    .case-pagenation {
+        gap: 825px;
+    }
+
+    .shop-case-btn button {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .case-pagenation {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .shop-text {
+        flex-wrap: wrap;
+        margin: 0px 35px;
+        margin-bottom: 20px;
+    }
+
+    .shop-case {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 30px;
+    }
+
+    .shop-case-btn button {
+        right: 50px;
+    }
+}
+
 .work {
-    height: 320px;
     background-color: #F8F8FF;
     margin-top: 80px;
 }
@@ -958,6 +1053,23 @@ nav {
 
 .workbtn .delivery::before {
     content: url(data/delivery.svg);
+}
+
+@media screen and (max-width: 768px) {
+    .arr1 {
+        display: none;
+    }
+
+    .work-text {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .work-container {
+        display: block;
+    }
 }
 
 .loyalty {
@@ -1058,6 +1170,14 @@ nav {
 .loyalty-content p::before {
     content: url(data/check.svg);
     padding: 0px 10px 0px 0px;
+}
+
+@media screen and (max-width: 991px) {
+    .loyalty-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 35px;
+    }
 }
 
 .popularbtn button{
@@ -1232,6 +1352,28 @@ nav {
     padding-right: 4px;
 }
 
+@media screen and (max-width: 760px) {
+    .sss {
+        height: 680px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sss-Ftext p {
+        text-align: center;
+    } 
+
+    .sss-Stext p {
+        text-align: center;
+    }
+
+    .sss-main-card {
+        flex-wrap: wrap;
+        top: 220px;
+        gap: 20px;
+    }
+}
+
 .dental {
     position: relative;
     margin: 180px 0px 100px;
@@ -1306,6 +1448,18 @@ nav {
     font-weight: 500;
     color: #102693;
     margin: auto;
+}
+
+@media screen and (max-width: 760px) {
+    .dental {
+        margin: 40px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dental-header p {
+        text-align: center;
+    }
 }
 
 .aboutus {
@@ -1463,6 +1617,51 @@ nav {
     filter: brightness(0) invert(36%) sepia(85%) saturate(2259%) hue-rotate(222deg);
 }
 
+@media screen and (max-width: 1100px) {
+    .aboutus {
+        height: auto;
+        padding: 20px;
+    }
+
+    .aboutus-main {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .aboutus-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .aboutus-container1 {
+        gap: 10px;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .aboutus-img1 img {
+        height: 250px;
+    }
+
+    .aboutus-img2 img {
+        height: 100px;
+    }
+
+    .aboutus-content {
+        text-align: center;
+    }
+
+    .aboutus-container {
+        justify-content: center;
+    }
+
+    .readbtn {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .test {
     margin: 40px 120px;
 }
@@ -1588,6 +1787,35 @@ nav {
     font-family: plus jakarta sans, sans-serif;
     font-size: 18px;
     font-weight: 500;
+}
+
+@media screen and (max-width: 1260px) {
+    .test-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .test-head {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .test-header p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .test {
+        margin: 20px 10px;
+    }
+    .test-card {
+        width: auto;
+        height: auto;
+    }   
 }
 
 .footer {
@@ -1857,4 +2085,53 @@ nav {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-top {
+        flex-wrap: wrap;
+        gap: 0;
+        top: -220px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer-container {
+        grid-template-columns: auto;
+        padding-top: 250px;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-top {
+        left: 35px;
+        right: 35px;
+
+    }
+    .footer-form {
+        flex-wrap: wrap;
+    }
+
+    .footer-left {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-container {
+        text-align: center;
+        margin: 20px 30px;
+    }
+
+    .footer-right {
+        width: auto;
+        text-align: center;
+    }
+
+    .socials {
+        justify-content: center;
+    }    
 }
