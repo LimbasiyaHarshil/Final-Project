@@ -911,12 +911,6 @@ nav {
     }
 }
 
-@media screen and (max-width: 1440px) {
-    .case-pagenation {
-        gap: 1155px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .shop-case {
         justify-content: center;
